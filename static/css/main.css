@@ -1,0 +1,104 @@
+header {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    height: 64px;
+    width: 64px;
+}
+
+}
+ .seperator {
+	 margin-bottom: 30px;
+	 width: 35px;
+	 height: 3px;
+	 background: #777;
+	 border: none;
+}
+
+
+ .title {
+	 text-align: center;
+}
+ .title .row {
+	 padding: 50px 0 0;
+}
+ .title h1 {
+	 text-transform: uppercase;
+}
+ .title .seperator {
+	 margin: 0 auto 10px;
+}
+ .item {
+	 position: relative;
+	 margin-bottom: 30px;
+	 min-height: 1px;
+	 float: left;
+	 -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+	 -webkit-backface-visibility: hidden;
+	 -webkit-tap-highlight-color: transparent;
+	 -webkit-touch-callout: none;
+	 -webkit-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+}
+ .item .item-in {
+	 background: #fff;
+	 padding: 40px;
+	 position: relative;
+}
+ .item .item-in:hover:before {
+	 width: 100%;
+}
+ .item .item-in::before {
+	 content: "";
+	 position: absolute;
+	 bottom: 0px;
+	 height: 2px;
+	 width: 0%;
+	 background: #333;
+	 right: 0px;
+	 -webkit-transition: width 0.4s;
+	 transition: width 0.4s;
+}
+ .item h4 {
+	 font-size: 18px;
+	 margin-top: 25px;
+	 letter-spacing: 2px;
+	 text-transform: uppercase;
+}
+ .item p {
+	 font-size: 12px;
+}
+ .item a {
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 color: #666;
+	 margin-top: 10px;
+}
+ .item a i {
+	 opacity: 0;
+	 padding-left: 0px;
+	 transition: 0.4s;
+	 font-size: 24px;
+	 display: inline-block;
+	 top: 5px;
+	 position: relative;
+}
+ .item a:hover {
+	 text-decoration: none;
+}
+ .item a:hover i {
+	 padding-left: 10px;
+	 opacity: 1;
+	 font-weight: 300;
+}
